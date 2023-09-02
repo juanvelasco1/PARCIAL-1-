@@ -1,5 +1,5 @@
 import user from "./data.js";
-import personajes from "./src/components/1/personajes.js"
+import {personajes} from "./src/components/1/personajes.js"
 console.log(user);
 console.log(personajes);
 
@@ -16,9 +16,10 @@ class App extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
-        <app-user>user</app-user>
+        <app-user>Hice lo que pude</app-user>
         `;
   }
 }
 
 customElements.define("app-container", App);
+

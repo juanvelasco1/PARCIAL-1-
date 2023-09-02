@@ -1,4 +1,4 @@
-export default class personajes extends HTMLElement {
+export  class personajes extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -10,7 +10,7 @@ export default class personajes extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
-        <app-personajes>personaje</app-personajes>
+        <app-personajes>yoda</app-personajes>
         `;
   }
 }
