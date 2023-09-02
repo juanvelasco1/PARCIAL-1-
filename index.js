@@ -1,8 +1,7 @@
 import user from "./data.js";
-import {personajes} from "./src/components/1/personajes.js"
+import { personajes } from "./src/components/1/personajes.js";
 console.log(user);
 console.log(personajes);
-
 
 class App extends HTMLElement {
   constructor() {
@@ -22,4 +21,3 @@ class App extends HTMLElement {
 }
 
 customElements.define("app-container", App);
-

@@ -1,4 +1,4 @@
-export  class personajes extends HTMLElement {
+export class personajes extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -14,6 +14,5 @@ export  class personajes extends HTMLElement {
         `;
   }
 }
-
 
 customElements.define("app-otro", personajes);
